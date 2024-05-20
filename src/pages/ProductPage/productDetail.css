@@ -1,0 +1,235 @@
+.img-respon {
+    padding: 5px;
+    margin: 5px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(245, 244, 244);
+    font-size: inherit;
+    display: flex;
+    max-width: 100%;
+}
+
+.magin100px {
+    margin-bottom: 50px;
+}
+
+.boderblue {
+    border: 5px solid rgb(67, 107, 252)
+}
+
+.img-responsive {
+
+    max-inline-size: 100%;
+    block-size: auto;
+    font-size: inherit;
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.img-repon {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.product-page-content {
+    background-color: "red";
+}
+
+@media screen and (max-width: 769px) {
+    .img-respon {
+
+        justify-content: center;
+
+        font-size: inherit;
+        display: flex;
+        max-width: 100%;
+    }
+
+    .img-repon {
+        height: 40px;
+        width: 40px
+    }
+
+    .offoron-2 {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width: 769px) {
+    .offoron {
+        display: none;
+    }
+
+    .img-responsive {
+
+        max-inline-size: 100%;
+        block-size: auto;
+        font-size: inherit;
+        display: block;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .img-repon {
+        height: 50px;
+        width: 50px
+    }
+}
+
+.decriCenter {
+    align-items: center;
+    justify-Content: center;
+    display: flex
+}
+
+.magin50px {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bg-nau {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.details-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 50px 0px;
+
+}
+
+.details-container p {
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.details-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+.details-table td:first-child {
+    font-weight: bold;
+}
+
+.buttonThemGio {
+    color: aqua;
+    background-color: rgb(249, 251, 253);
+}
+
+.bg-Color-div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+
+}
+
+.bg-Color-xam {
+    padding: 5px;
+    background-color: var(--bg-card-color);
+}
+
+.check {
+    color: rgb(5, 176, 255);
+}
+
+.chinhhang {
+    display: flex;
+}
+
+.spax {
+    margin-right: 10px;
+}
+
+.quantity-selector {
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.quantity-selector .btn-decrement,
+.quantity-selector .btn-increment {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(196, 195, 195);
+    background-color: #fffdfd;
+    border: 2px solid #ceced7;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quantity-selector .quantity {
+    width: 2rem;
+    text-align: center;
+}
+
+.soluong {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.motasp {
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.thongtinct {
+    font-size: smaller;
+
+}
+
+.thongtinct tr {
+    border-bottom: 5px solid #ddd;
+}
+
+.bg-nau {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thongtinct tr {
+    border-bottom: 2px solid #b6b6b697;
+}
+
+.thongtinct td {
+    padding: 8px;
+}
+
+.thongtinct td:first-child {
+    font-weight:300;
+}
+.fontKt{
+    font-size: smaller;
+    font-weight: 600;
+    color: #474747;
+}
+.oneSelect img:nth-child(1){
+    border: 3px solid rgb(67, 107, 252)
+}
